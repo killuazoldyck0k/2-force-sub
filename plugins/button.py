@@ -40,8 +40,8 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟸", url=client.invitelink2),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
+                InlineKeyboardButton(text="ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ 𝟸", url=client.invitelink2),
             ]
         ]
         return buttons
