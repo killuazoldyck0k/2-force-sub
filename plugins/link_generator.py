@@ -26,7 +26,7 @@ async def batch(client: Client, message: Message):
         if f_msg_id:
             break
         await first_message.reply(
-            "❌ <b>ʙᴀᴋᴋᴀ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ ᴀɴɪᴍᴇ sᴇɴsᴇɪ ɴᴇᴛᴡᴏʀᴋ</b>",
+            "❌ <b>ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘᴀɪ!!</b>",
             quote=True,
         )
         continue
