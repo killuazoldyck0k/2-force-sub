@@ -14,16 +14,16 @@ load_dotenv("config.env")
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "609fUKUi1qVBM5awbdpMxwTGT5Iz48n68")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "2578996"))
+APP_ID = int(os.environ.get("APP_ID", "27108998"))
 
 # API Hash Anda dari my.telegram.org
 API_HASH = os.environ.get("API_HASH", "1f5343b06466759fc248f")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001885067474"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001504198267"))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Sensei_Rimuru")
+OWNER = os.environ.get("OWNER", "Killua_og")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -36,28 +36,28 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://userbot:userbot@cluster0.ltasu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://sonu55:sonu55@cluster0.vqztrvk.mongodb.net/?retryWrites=true&w=majority")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001936280485"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001657899041")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001904637517"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001677405443")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}\n\nʙᴀᴋᴋᴀᴀᴀ!! ɪ'ᴍ ʜᴇʀᴇ ᴀᴛ ᴛᴏ ᴘʀᴏᴠɪᴅᴇ ʏᴏᴜʀ ᴀɴɪᴍᴇ !! ᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣.</b>",
+    "<b>Hello {first}\n\nʙᴀᴋᴋᴀᴀᴀ!!{first}\n\nI can store provide files for @Anime_Alliance channel Members❤️!!\n\nᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣.</b>",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "2036803347 6030197186").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "5191566338").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "<b>Hey {first}bro\n\nᴡʜʏ ᴀʀᴇ ʏᴏᴜ ᴜꜱɪɴɢ ᴍᴇ ᴡɪᴛʜᴏᴜᴛ ᴊᴏɪɴɪɴɢ ᴛʜᴇ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ?ᴊᴏɪɴ ɴᴏᴡ, ᴀɴᴅ ᴇɴᴊᴏʏ !!! ☺️</b>",
+    "👋 Hello {username}!\nPlease Join our channel First [ ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡️ ] then\n Download by tapping on ⚡️Try Again  \nThank You ❤️",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
@@ -68,7 +68,7 @@ DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "Fal
 
 # Jangan Dihapus nanti ERROR, HAPUS ID Dibawah ini = TERIMA KONSEKUENSI
 # Spoiler KONSEKUENSI-nya Paling CH nya tiba tiba ilang & owner nya gua gban 🤪
-ADMINS.extend((844432220, 6198858059, 778393824, 6299128233))
+ADMINS.extend((844432220, 5191566338))
 
 
 LOG_FILE_NAME = "logs.txt"
