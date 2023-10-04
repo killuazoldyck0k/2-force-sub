@@ -25,35 +25,31 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- ♥︎ Developed by </b><a href='https://t.me/Sensei_Rimuru'>Owner Sama</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/killua_og'>ɢ ᴏ ᴅㅤ ᴏ ꜰㅤ ꜱ ᴘ ᴇ ᴇ ᴅ</a>
 """
 
     close = [
-        [InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ", callback_data="close")]
+        [InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("⚠️ ʜᴇʟᴘ", callback_data="help"),
-            InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ", callback_data="close")
+            InlineKeyboardButton("Hᴇʟᴘ", callback_data="help"),
+            InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("😇ᴀʙᴏᴜᴛ", callback_data="about"),
-            InlineKeyboardButton("❌ᴄʟᴏsᴇ", callback_data="close")
+            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton("Cʟᴏsᴇ", callback_data="close")
         ],
     ]
 
     ABOUT = """
-<b>About this Bot:
+○ <b>Channel</b> : @Anime_Alliance
+○ <b>Request</b> : @newanimerequestbot
+○ <b>Chatting Group</b> : @Alliance_Weebs
 
- ᴛʜɪs is a Telegram Bot for storing posts or files that can be accessed via a special link.
-
-  • Sensei: @Sensei_Rimuru
-  • Framework: Pyrograms
-  • Channel :@Anime_Sensei_Network
-
- ♥︎ Developed by Owner
+♥︎ Developed by @Anime_Alliance
 """
