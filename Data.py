@@ -47,7 +47,7 @@ class Data:
     ]
 
     ABOUT = """
-Hello {first} , Thanks for using me :D
+Hello user , Thanks for using me :D
 
 ♥︎ Developed by @TeamUniverseOffical
 """
