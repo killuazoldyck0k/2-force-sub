@@ -47,7 +47,10 @@ class Data:
     ]
 
     ABOUT = """
-Hello user , Thanks for using me :D
+Hey
 
-♥︎ Developed by @TeamUniverseOffical
+ᴍʏ ᴅᴀᴅ - @AryanTeamUniverse
+ᴀɴᴅ ɪ ʙᴇʟᴏɴɢs ᴛᴏ - @TeamUniversee
+
+Thank You For Using Me 🫶
 """
