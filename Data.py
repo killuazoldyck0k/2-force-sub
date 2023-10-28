@@ -25,7 +25,7 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/teamUniverseOffical'>Team Universe Offical</a>
+ 👨‍💻 Developed by </b><a href='https://t.me/killua_og'>ɢ ᴏ ᴅㅤ ᴏ ꜰㅤ ꜱ ᴘ ᴇ ᴇ ᴅ</a>
 """
 
     close = [
@@ -47,9 +47,9 @@ class Data:
     ]
 
     ABOUT = """
-Hey
+    ° Hey
 
-ᴍʏ ᴅᴀᴅ - @AryanTeamUniverse
+ᴄʀᴇᴀᴛᴏʀ - @AryanTeamUniverse
 ᴀɴᴅ ɪ ʙᴇʟᴏɴɢs ᴛᴏ - @TeamUniversee
 
 Thank You For Using Me 🫶
