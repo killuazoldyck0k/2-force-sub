@@ -29,7 +29,7 @@ def start_button(client):
     if FORCE_SUB_CHANNEL and not FORCE_SUB_GROUP:
         buttons = [
             [
-                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
+                InlineKeyboardButton(text="👉ᴄʜᴀɴɴᴇʟ👈", url=client.invitelink),
             ]
         ]
         return buttons
