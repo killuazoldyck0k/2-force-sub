@@ -30,11 +30,7 @@ def start_button(client):
         buttons = [
             [
                 InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 𝟷", url=client.invitelink),
-            ],
-            [
-                InlineKeyboardButton(text="😇ʜᴇʟᴘ", callback_data="help"),
-                InlineKeyboardButton(text="❌ᴄʟᴏsᴇ", callback_data="close"),
-            ],
+            ]
         ]
         return buttons
     if FORCE_SUB_CHANNEL and FORCE_SUB_GROUP:
