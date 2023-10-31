@@ -6,9 +6,8 @@ from pyrogram.types import InlineKeyboardButton
 
 class Data:
     HELP = """
-<b>How to Use this Bot</b>
 
-Press "Start"
+<b>Press "Start"</b>
 Subscribe☑️ to the channel and select the Series you want to watch📲
 """
 
