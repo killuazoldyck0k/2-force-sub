@@ -47,7 +47,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 # Pesan Awalan /start
 START_MSG = os.environ.get(
     "START_MESSAGE",
-    "<b>Hello {first}\n\nʙᴀᴋᴋᴀᴀᴀ!! {first}\n\nI can provide files for @Anime_Alliance\nchannel Members❤️!!\n\nᴊᴜꜱᴛ ᴅᴏɴ'ᴛ ᴏᴠᴇʀʟᴏᴀᴅ ᴍᴇ 🫣.</b>",
+    "<b>Hello {first}</b>\n\nTo use the bot, select the H-Anime you want from our channel:",
 )
 try:
     ADMINS = [int(x) for x in (os.environ.get("ADMINS", "2098973647").split())]
