@@ -39,8 +39,8 @@ UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 DB_URI = os.environ.get("DATABASE_URL", "postgres://fgooxpri:3QOf5L_Wcp948AsPMaMUIhEhg457GcHP@floppy.db.elephantsql.com/fgooxpri")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001967812554"))
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001532325721")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002028931413"))
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "0")) 
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "👋 Hello {username}!\nPlease Join our channel First [ ᴛᴀᴘ ᴏɴ ᴊᴏɪɴ ⚡️ ] then\n Download by tapping on ⚡️Try Again  \nThank You ❤️",
+    "👋 Hello {username}!\n📂 Your file is ready, to get it you need to subscribe to the channel 👇",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
