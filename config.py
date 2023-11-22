@@ -23,7 +23,7 @@ API_HASH = os.environ.get("API_HASH", "")
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "AryanTeamUniverse")
+OWNER = os.environ.get("OWNER", "Killua_OG")
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -57,7 +57,7 @@ except ValueError:
 # Pesan Saat Memaksa Subscribe
 FORCE_MSG = os.environ.get(
     "FORCE_SUB_MESSAGE",
-    "👋 Hello {username}!\n📂 Your file is ready, to get it you need to subscribe to the channel 👇",
+    "👋 Hello {username}!\n\n📂 Your file is ready, to get it you need to subscribe to the channel 👇",
 )
 
 # Atur Teks Kustom Anda di sini, Simpan (None) untuk Menonaktifkan Teks Kustom
